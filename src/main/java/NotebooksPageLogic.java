@@ -43,8 +43,6 @@ public class NotebooksPageLogic {
 
     public Notebook getInBasketNotebook() {
         if (inBasketNotebook == null) {
-            /*if (basketWindow == null)
-                basketWindow = new BasketWindowLogic();*/
             showBasketWindow();
             if (basketWindow != null) {
                 basketWindow.closeWindow();
